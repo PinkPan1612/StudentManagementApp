@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "491327943388",
+    "project_id": "collegemanager-e871d",
+    "storage_bucket": "collegemanager-e871d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:491327943388:android:b479078c070eefbb2bfa19",
+        "android_client_info": {
+          "package_name": "com.example.collegemanager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCByFS64vvO2sqZq0PTlfz8eGm_hAeuD2U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

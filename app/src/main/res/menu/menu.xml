@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/Home"
+        android:icon="@drawable/home"
+        app:cnb_iconColor = "@color/white"
+        app:cnb_backgroundColor = "@color/black"
+        android:title="Home"/>
+
+    <item android:id="@+id/Query"
+        android:icon="@drawable/query"
+        app:cnb_iconColor = "@color/white"
+        app:cnb_backgroundColor = "@color/black"
+        android:title="List"/>
+
+    <item android:id="@+id/Insert"
+        android:icon="@drawable/create"
+        app:cnb_iconColor = "@color/white"
+        app:cnb_backgroundColor = "@color/black"
+        android:title="Create"/>
+
+    <item android:id="@+id/Setting"
+        android:icon="@drawable/setting"
+        app:cnb_iconColor = "@color/white"
+        app:cnb_backgroundColor = "@color/black"
+        android:title="Setting"/>
+
+</menu>

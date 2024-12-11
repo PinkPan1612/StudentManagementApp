@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding = "18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="72dp"
+            android:layout_height="74dp"
+            android:layout_marginTop="16dp"
+            app:srcCompat="@drawable/back" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/custom_edttiext_search"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Họ và tên"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtMSV"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/custom_edttiext_search"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Mã sinh viên"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edtMath"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edttiext_search"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Toán..."
+                android:inputType="numberDecimal"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtVan"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edttiext_search"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Văn..."
+                android:inputType="numberDecimal"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/edtAnh"
+                android:layout_width="0dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="52dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_edttiext_search"
+                android:ems="10"
+                android:fontFamily="sans-serif"
+                android:hint="Anh..."
+                android:inputType="numberDecimal"
+                android:padding="16dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="186dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#000"
+            android:fontFamily="sans-serif"
+            android:text="Thêm"
+            android:textColor="#ffcc66"
+            android:textSize="21sp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

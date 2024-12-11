@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding = "16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imgBack"
+            android:layout_width="61dp"
+            android:layout_height="63dp"
+            android:layout_marginTop="18dp"
+            app:srcCompat="@drawable/back" />
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="52dp"
+            android:background="@drawable/custom_edttiext_search"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Họ và tên"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/edtMSV"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/custom_edttiext_search"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Mã sinh viên"
+            android:inputType="text"
+            android:padding="16dp"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="54dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Toán"
+                    android:textAlignment="center"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Văn"
+                    android:textAlignment="center"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif"
+                    android:text="Anh"
+                    android:textAlignment="center"
+                    android:textSize="21sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/edtMath"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:ems="10"
+                        android:fontFamily="@font/nova_square"
+                        android:inputType="numberDecimal"
+                        android:layout_weight="1"
+                        android:textColor="@color/black"
+                        android:padding="16dp"
+                        android:layout_marginEnd="8dp"
+                        android:textSize="18sp"
+                        android:background="@drawable/custom_edttiext_search"
+                        android:hint="Toán..." />
+
+                    <EditText
+                        android:id="@+id/edtVan"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_edttiext_search"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:hint="Văn..."
+                        android:inputType="numberDecimal"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+
+                    <EditText
+                        android:id="@+id/edtAnh"
+                        android:layout_width="0dp"
+                        android:layout_height="55dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/custom_edttiext_search"
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:hint="Anh..."
+                        android:inputType="numberDecimal"
+                        android:padding="16dp"
+                        android:textColor="@color/black"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="186dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/custom_button"
+            android:backgroundTint="#000"
+            android:fontFamily="sans-serif"
+            android:text="Cập nhật"
+            android:textColor="#ffcc66"
+            android:textSize="21sp"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
